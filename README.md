@@ -18,7 +18,7 @@ This docker image is created with [openjdk](https://hub.docker.com/_/openjdk/) o
 
 # Usage
 
-## Run innotop
+## Run
 
 ```
 # show help message
