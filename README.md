@@ -4,9 +4,11 @@ This repository contains **Dockerfile** of aws DynamoDB local.
 
 See [AWS Documentation](http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.html) about DynamoDB local.
 
-## Base Docker image
+## Docker image
 
 - [leonisandco/aws-dynamodb-local](https://hub.docker.com/r/leonisandco/aws-dynamodb-local/)
+
+This docker image is created with [openjdk](https://hub.docker.com/_/openjdk/) on the [alpine linux](https://alpinelinux.org/)! :smile:
 
 ## Installation
 
