@@ -7,4 +7,6 @@ RUN apk add --no-cache --virtual .dependency curl && \
 
 ENTRYPOINT ["java", "-Djava.library.path=./DynamoDBLocal_lib", "-jar", "DynamoDBLocal.jar"]
 
+EXPOSE 8000
+
 CMD ["-help"]
