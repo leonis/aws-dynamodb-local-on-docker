@@ -1,4 +1,4 @@
-FROM openjdk:8-jre-alpine
+FROM openjdk:7-jdk-alpine
 MAINTAINER devops@leonisand.co
 
 RUN apk add --no-cache --virtual .dependency curl && \
